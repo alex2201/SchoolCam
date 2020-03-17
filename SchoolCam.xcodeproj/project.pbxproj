@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5C16D62418640C00F183E5 /* NotePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C16D52418640C00F183E5 /* NotePictureViewController.swift */; };
+		FA667247241360E1000F16D1 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667246241360E1000F16D1 /* NotesTableViewController.swift */; };
+		FA667249241377C4000F16D1 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA667248241377C4000F16D1 /* NoteTableViewCell.swift */; };
+		FA6C937F240E000F00C6367A /* SchoolClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C937E240E000F00C6367A /* SchoolClassViewController.swift */; };
+		FA7A1FD7240EF0D00074F78D /* SchoolClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A1FD6240EF0D00074F78D /* SchoolClassModel.swift */; };
+		FAB12FB924140BA700C1D4DF /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB12FB824140BA700C1D4DF /* NoteModel.swift */; };
+		FAB12FBB24140BDA00C1D4DF /* ManagedObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB12FBA24140BDA00C1D4DF /* ManagedObjectModel.swift */; };
+		FAB12FBF2414D0D500C1D4DF /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB12FBE2414D0D500C1D4DF /* AlertBuilder.swift */; };
+		FAFB24B42408B5B800350515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB24B32408B5B800350515 /* AppDelegate.swift */; };
+		FAFB24B62408B5B800350515 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB24B52408B5B800350515 /* SceneDelegate.swift */; };
+		FAFB24BB2408B5B800350515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB24B92408B5B800350515 /* Main.storyboard */; };
+		FAFB24BE2408B5B800350515 /* SchoolCam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFB24BC2408B5B800350515 /* SchoolCam.xcdatamodeld */; };
+		FAFB24C02408B5BA00350515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFB24BF2408B5BA00350515 /* Assets.xcassets */; };
+		FAFB24C32408B5BA00350515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB24C12408B5BA00350515 /* LaunchScreen.storyboard */; };
+		FAFB24CB2408C1F400350515 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB24CA2408C1F400350515 /* CameraViewController.swift */; };
+		FAFB24CE2408CF5A00350515 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB24CD2408CF5A00350515 /* PreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA3BA711241EF3A2006C3BF2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA5C16D52418640C00F183E5 /* NotePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePictureViewController.swift; sourceTree = "<group>"; };
+		FA667246241360E1000F16D1 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		FA667248241377C4000F16D1 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		FA6C937E240E000F00C6367A /* SchoolClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolClassViewController.swift; sourceTree = "<group>"; };
+		FA7A1FD6240EF0D00074F78D /* SchoolClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolClassModel.swift; sourceTree = "<group>"; };
+		FAB12FB824140BA700C1D4DF /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		FAB12FBA24140BDA00C1D4DF /* ManagedObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectModel.swift; sourceTree = "<group>"; };
+		FAB12FBE2414D0D500C1D4DF /* AlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		FAFB24B02408B5B800350515 /* SchoolCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB24B32408B5B800350515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFB24B52408B5B800350515 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAFB24BA2408B5B800350515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFB24BD2408B5B800350515 /* SchoolCam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolCam.xcdatamodel; sourceTree = "<group>"; };
+		FAFB24BF2408B5BA00350515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFB24C22408B5BA00350515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFB24C42408B5BA00350515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFB24CA2408C1F400350515 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FAFB24CD2408CF5A00350515 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFB24AD2408B5B800350515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7A1FD5240EF0BA0074F78D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A1FD6240EF0D00074F78D /* SchoolClassModel.swift */,
+				FAB12FB824140BA700C1D4DF /* NoteModel.swift */,
+				FAB12FBA24140BDA00C1D4DF /* ManagedObjectModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FAFB24A72408B5B800350515 = {
+			isa = PBXGroup;
+			children = (
+				FAFB24B22408B5B800350515 /* SchoolCam */,
+				FAFB24B12408B5B800350515 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		FAFB24B12408B5B800350515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB24B02408B5B800350515 /* SchoolCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFB24B22408B5B800350515 /* SchoolCam */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB24B32408B5B800350515 /* AppDelegate.swift */,
+				FAFB24B52408B5B800350515 /* SceneDelegate.swift */,
+				FA7A1FD5240EF0BA0074F78D /* model */,
+				FAFB24CF2408CFF400350515 /* view */,
+				FAFB24CC2408C20400350515 /* controller */,
+				FAFB24B92408B5B800350515 /* Main.storyboard */,
+				FAFB24BF2408B5BA00350515 /* Assets.xcassets */,
+				FAFB24C12408B5BA00350515 /* LaunchScreen.storyboard */,
+				FAFB24C42408B5BA00350515 /* Info.plist */,
+				FAFB24BC2408B5B800350515 /* SchoolCam.xcdatamodeld */,
+			);
+			path = SchoolCam;
+			sourceTree = "<group>";
+		};
+		FAFB24CC2408C20400350515 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C937E240E000F00C6367A /* SchoolClassViewController.swift */,
+				FAFB24CA2408C1F400350515 /* CameraViewController.swift */,
+				FA667246241360E1000F16D1 /* NotesTableViewController.swift */,
+				FAB12FBE2414D0D500C1D4DF /* AlertBuilder.swift */,
+				FA5C16D52418640C00F183E5 /* NotePictureViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FAFB24CF2408CFF400350515 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB24CD2408CF5A00350515 /* PreviewView.swift */,
+				FA667248241377C4000F16D1 /* NoteTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFB24AF2408B5B800350515 /* SchoolCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFB24C72408B5BA00350515 /* Build configuration list for PBXNativeTarget "SchoolCam" */;
+			buildPhases = (
+				FAFB24AC2408B5B800350515 /* Sources */,
+				FAFB24AD2408B5B800350515 /* Frameworks */,
+				FAFB24AE2408B5B800350515 /* Resources */,
+				FA3BA711241EF3A2006C3BF2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolCam;
+			productName = SchoolCam;
+			productReference = FAFB24B02408B5B800350515 /* SchoolCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFB24A82408B5B800350515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alexander Lopez Cedillo";
+				TargetAttributes = {
+					FAFB24AF2408B5B800350515 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAFB24AB2408B5B800350515 /* Build configuration list for PBXProject "SchoolCam" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFB24A72408B5B800350515;
+			productRefGroup = FAFB24B12408B5B800350515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFB24AF2408B5B800350515 /* SchoolCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFB24AE2408B5B800350515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB24C32408B5BA00350515 /* LaunchScreen.storyboard in Resources */,
+				FAFB24C02408B5BA00350515 /* Assets.xcassets in Resources */,
+				FAFB24BB2408B5B800350515 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFB24AC2408B5B800350515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB12FBF2414D0D500C1D4DF /* AlertBuilder.swift in Sources */,
+				FA7A1FD7240EF0D00074F78D /* SchoolClassModel.swift in Sources */,
+				FA667247241360E1000F16D1 /* NotesTableViewController.swift in Sources */,
+				FAFB24CB2408C1F400350515 /* CameraViewController.swift in Sources */,
+				FA6C937F240E000F00C6367A /* SchoolClassViewController.swift in Sources */,
+				FAFB24B42408B5B800350515 /* AppDelegate.swift in Sources */,
+				FAB12FB924140BA700C1D4DF /* NoteModel.swift in Sources */,
+				FA667249241377C4000F16D1 /* NoteTableViewCell.swift in Sources */,
+				FAB12FBB24140BDA00C1D4DF /* ManagedObjectModel.swift in Sources */,
+				FAFB24B62408B5B800350515 /* SceneDelegate.swift in Sources */,
+				FAFB24BE2408B5B800350515 /* SchoolCam.xcdatamodeld in Sources */,
+				FAFB24CE2408CF5A00350515 /* PreviewView.swift in Sources */,
+				FA5C16D62418640C00F183E5 /* NotePictureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAFB24B92408B5B800350515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB24BA2408B5B800350515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFB24C12408B5BA00350515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB24C22408B5BA00350515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFB24C52408B5BA00350515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFB24C62408B5BA00350515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFB24C82408B5BA00350515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S3T54XF2K;
+				INFOPLIST_FILE = SchoolCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonelydeadman.utils.SchoolCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFB24C92408B5BA00350515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S3T54XF2K;
+				INFOPLIST_FILE = SchoolCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonelydeadman.utils.SchoolCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFB24AB2408B5B800350515 /* Build configuration list for PBXProject "SchoolCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB24C52408B5BA00350515 /* Debug */,
+				FAFB24C62408B5BA00350515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFB24C72408B5BA00350515 /* Build configuration list for PBXNativeTarget "SchoolCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB24C82408B5BA00350515 /* Debug */,
+				FAFB24C92408B5BA00350515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAFB24BC2408B5B800350515 /* SchoolCam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAFB24BD2408B5B800350515 /* SchoolCam.xcdatamodel */,
+			);
+			currentVersion = FAFB24BD2408B5B800350515 /* SchoolCam.xcdatamodel */;
+			path = SchoolCam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAFB24A82408B5B800350515 /* Project object */;
+}

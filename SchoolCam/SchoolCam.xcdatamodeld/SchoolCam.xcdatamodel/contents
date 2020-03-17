@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ClassNote" representedClassName=".ClassNote" syncable="YES" codeGenerationType="class">
+        <attribute name="picture" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="taken" attributeType="Date" defaultDateTimeInterval="573367740" usesScalarValueType="NO"/>
+        <attribute name="title" attributeType="String" defaultValueString="Sin título"/>
+        <relationship name="schoolClass" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SchoolClass" inverseName="notes" inverseEntity="SchoolClass"/>
+    </entity>
+    <entity name="SchoolClass" representedClassName=".SchoolClass" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <relationship name="notes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ClassNote" inverseName="schoolClass" inverseEntity="ClassNote"/>
+    </entity>
+    <elements>
+        <element name="ClassNote" positionX="118.27734375" positionY="-130.875" width="128" height="103"/>
+        <element name="SchoolClass" positionX="-63" positionY="-18" width="128" height="73"/>
+    </elements>
+</model>
